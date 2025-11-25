@@ -1,0 +1,7 @@
+Document Ingestion:
+
+python -m src.rag_doc_ingestion.ingest_docs
+
+
+To run the crew agent:
+python -m src.agents_src.check_crew

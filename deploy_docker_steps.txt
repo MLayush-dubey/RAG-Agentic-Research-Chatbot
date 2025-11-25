@@ -1,0 +1,8 @@
+Open your Docker Desktop
+
+Build Docker Image:
+docker build -t rag-research-bot:latest .
+
+Setup container
+docker run -p 8000:8000 -p 8501:8501 -e GROQ_API_KEY=your_groq_api --name rag-research-bot-container-1 rag-research-bot:latest
+
